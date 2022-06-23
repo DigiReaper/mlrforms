@@ -1,0 +1,15 @@
+{
+  "name": "MLRfroms API GraphQL Schema",
+  "schemaPath": "./schema.graphql",
+  "extensions": {
+    "endpoints": {
+      "MLRfroms API GraphQL Endpoint1": {
+        "url": "http://localhost:4100/graphql",
+        "headers": {
+          "user-agent": "JS GraphQL"
+        },
+        "introspect": true
+      }
+    }
+  }
+}

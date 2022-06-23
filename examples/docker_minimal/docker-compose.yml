@@ -1,0 +1,60 @@
+version: "3"
+services:
+  ohmyform:
+    image: ohmyform/ohmyform
+    volumes:
+      - "./data:/data"
+    environment:
+      CREATE_ADMIN: "TRUE"
+      ADMIN_EMAIL: admin@local.host
+      ADMIN_USERNAME: admin
+      ADMIN_PASSWORD: admin
+      DATABASE_DRIVER: sqlite
+      DATABASE_URL: "sqlite:///data/data.sqlite"
+      MAILER_URI: smtp://local.host
+      LOGIN_NOTE: "Either login with admin:admin or create your own account to test MLRforms"
+    ports:
+      - "8080:3000"
+    restart: unless-stopped
+
+
+# WARNING!! This is to build from source
+
+# to use a version that is prebuilt copy one of the entries from the examples folder!
+
+
+# version: "3"
+# services:
+#   redis:
+#     image: redis
+#   ohmyform:
+#     build: .
+#     environment:
+#       CREATE_ADMIN: "TRUE"
+#       MAILER_URI: smtp://mail:1025
+#       DATABASE_DRIVER: postgres
+#       DATABASE_URL: postgresql://root:root@db:5432/ohmyform
+#       LOGIN_NOTE: "login with root:root!"
+#       SECRET_KEY: 12345
+#       HIDE_CONTRIB: "TRUE" 
+#     links:
+#       - db
+#       - redis
+#       - mail
+#     ports:
+#       - "5200:3000"
+#     depends_on:
+#       - db
+#       - redis
+#   mail:
+#     image: mailhog/mailhog
+#     ports:
+#       - "5051:8025"
+#   db:
+#     image: postgres:10-alpine
+#     volumes:
+#       - ./pg_data:/var/lib/postgresql/data
+#     environment:
+#       POSTGRES_USER: root
+#       POSTGRES_PASSWORD: root
+#       POSTGRES_DB: ohmyform
