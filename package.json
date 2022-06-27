@@ -2,11 +2,11 @@
   "version": "1.0.3",
   "name": "MLRform",
   "description": "Opensource alternative to TypeForm",
-  "homepage": "https://github.com/ohmyform/ohmyform",
+  "homepage": "https://github.com/digireaper/mlrforms",
   "license": "AGPL-3.0-or-later",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ohmyform/ohmyform.git"
+    "url": "https://github.com/digireaper/mlrforms.git"
   },
   "engines": {
     "yarn": "1.x",

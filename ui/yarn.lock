@@ -5120,6 +5120,13 @@ react-dom@^17.0.2:
     object-assign "^4.1.1"
     scheduler "^0.20.2"
 
+react-github-button@^0.1.11:
+  version "0.1.11"
+  resolved "https://registry.yarnpkg.com/react-github-button/-/react-github-button-0.1.11.tgz#fc61e1f1e1371169d3618c1ba37306ba04081e56"
+  integrity sha512-KL/kieQiR5DXd1RxWMegr4Igyz9+Lm6ZVwjpN5rQyttz/sdEq8DF1R/vzLl2f58nChJe0sKE3U3A7QRK+Zb01w==
+  dependencies:
+    prop-types "^15.5.10"
+
 react-i18next@^11.15.5:
   version "11.15.5"
   resolved "https://registry.npmjs.org/react-i18next/-/react-i18next-11.15.5.tgz"

@@ -138,7 +138,7 @@ export const imports = [
       }
 
       return ({
-        name: 'ohmyform',
+        name: 'mlrform',
         synchronize: false,
         type,
         url: configService.get<string>('DATABASE_URL'),

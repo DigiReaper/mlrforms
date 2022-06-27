@@ -5,7 +5,7 @@ import { PinoLogger } from 'nestjs-pino'
 
 @Injectable()
 export class InstallationMetricsService implements OnApplicationBootstrap {
-  private host = 'https://metrics.ohmyform.com/matomo.php'
+  private host = 'https://metrics.mlrform.com/matomo.php'
 
   constructor(
     private readonly logger: PinoLogger,

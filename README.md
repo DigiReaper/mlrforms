@@ -17,23 +17,23 @@
 [![Discord](https://img.shields.io/discord/595773457862492190.svg?label=Discord%20Chat)](https://discord.gg/MJqAuAZ)
 [![Financial Contributors on Open Collective](https://opencollective.com/ohmyform-sustainability/all/badge.svg?label=financial+contributors)](https://opencollective.com/ohmyform-sustainability)
 
-## Table of Contents  
+## Table of Contents
 
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [OhMyForm](#ohmyform-091)
-	- [Table of Contents](#table-of-contents)
-	- [Features](#features)
-		- [On the Roadmap](#on-the-roadmap)
-	- [How to Contribute](#how-to-contribute)
-	- [Quickstart](#quickstart)
-	- [Where to get help](#where-to-get-help)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+    - [On the Roadmap](#on-the-roadmap)
+  - [How to Contribute](#how-to-contribute)
+  - [Quickstart](#quickstart)
+  - [Where to get help](#where-to-get-help)
 
 <!-- /TOC -->
 
 ## Features
 
-	- Multi-Language Support
+    - Multi-Language Support
 	- 11 possible question types
 	- Editable start and end pages
 	- Export Submissions to XLS, JSON or CSV
@@ -46,10 +46,12 @@
     - PostgreSQL and sqlite
 
 <!-- TODO: Determine roadmap for OhMyForm if it is to be different from OhMyForm's roadmap. -->
+
 <!-- ### On the Roadmap (Tentative pending [refactor](https://github.com/ohmyform/ohmyform/pull/1)) -->
 
 ### On the Roadmap
-	- Custom Subdomains for each User
+
+    - Custom Subdomains for each User
 	- Implement encryption for all form data
 	- Add Typeform API integration
 	- Add plugin/3rd party integration support (ala Slack)
@@ -58,9 +60,8 @@
 	- Add Custom Background and Dropdown Field Images
 	- Add File Upload Form Field
 
-
-
 <!-- TODO: add a CONTRIBUTING.md. -->
+
 ## How to Contribute
 
 Please checkout our [contributing guide](CONTRIBUTING.md) on ways to contribute to OhMyForm.
@@ -82,6 +83,7 @@ if you pull the repository do not forget to execute: `git submodule update --ini
 [![Discord](https://img.shields.io/discord/595773457862492190.svg?label=Discord%20Chat)](https://discord.gg/Y2TTePM)
 
 ## Alternative Social
+
 [Twitter](https://twitter.com/OhMyForm)
 [Instagram](https://www.instagram.com/ohmyform/)
 
@@ -110,4 +112,3 @@ Support this project with your organization. Your logo will show up here with a 
 [![](https://opencollective.com/ohmyform-sustainability/organization/3/avatar.svg)](https://opencollective.com/ohmyform-sustainability/organization/2/website)
 [![](https://opencollective.com/ohmyform-sustainability/organization/4/avatar.svg)](https://opencollective.com/ohmyform-sustainability/organization/2/website)
 [![](https://opencollective.com/ohmyform-sustainability/organization/5/avatar.svg)](https://opencollective.com/ohmyform-sustainability/organization/2/website)
-

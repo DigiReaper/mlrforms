@@ -1,7 +1,7 @@
 version: "3"
 services:
-  ohmyform:
-    image: ohmyform/ohmyform
+  mlrform:
+    image: mlrform/mlrform
     volumes:
       - "./data:/data"
     environment:
@@ -27,13 +27,13 @@ services:
 # services:
 #   redis:
 #     image: redis
-#   ohmyform:
+#   mlrform:
 #     build: .
 #     environment:
 #       CREATE_ADMIN: "TRUE"
 #       MAILER_URI: smtp://mail:1025
 #       DATABASE_DRIVER: postgres
-#       DATABASE_URL: postgresql://root:root@db:5432/ohmyform
+#       DATABASE_URL: postgresql://root:root@db:5432/mlrform
 #       LOGIN_NOTE: "login with root:root!"
 #       SECRET_KEY: 12345
 #       HIDE_CONTRIB: "TRUE" 
@@ -57,4 +57,4 @@ services:
 #     environment:
 #       POSTGRES_USER: root
 #       POSTGRES_PASSWORD: root
-#       POSTGRES_DB: ohmyform
+#       POSTGRES_DB: mlrform

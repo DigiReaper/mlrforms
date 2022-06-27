@@ -1,17 +1,11 @@
 {
   "name": "ohmyform",
-  "description": "Opensource alternative to TypeForm",
-  "repository": "https://github.com/ohmyform/ohmyform",
-  "logo": "https://raw.githubusercontent.com/ohmyform/ohmyform/master/public/logo.png",
+  "description": "Opensource alternative to GoogleForm",
+  "repository": "https://github.com/digireaper/mlrforms",
   "keywords": [
     "form",
     "survey"
   ],
-  "env": {
-    "BASE_URL": {
-      "description": "Domain name where the site will be hosted",
-      "value": "ohmyform.herokuapp.com"
-    },
     "MAILER_URI": {
       "description": "Set this to a uri like smtp://localhost:1025 - for more information check https://nodemailer.com/",
       "value": "smtp://smtp.mailtrap.io:2525"

@@ -13,7 +13,7 @@ services:
       - ./maria_data:/var/lib/mysql
     environment:
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: ohmyform
+      MYSQL_DATABASE: mlrform
     ports:
       - "3306:3306"
 
@@ -24,7 +24,7 @@ services:
     environment:
       POSTGRES_USER: root
       POSTGRES_PASSWORD: root
-      POSTGRES_DB: ohmyform
+      POSTGRES_DB: mlrform
     ports:
       - "5432:5432"
 
@@ -37,7 +37,7 @@ services:
 #    volumes:
 #      - ".:/usr/src/app"
 #    environment:
-#      MONGODB_URI: mongodb://mongo/ohmyform
+#      MONGODB_URI: mongodb://mongo/mlrform
 #      MAILER_URI: smtp://mail:1025
 #      PORT: 3000
     #command: yarn start:dev

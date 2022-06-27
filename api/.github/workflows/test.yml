@@ -52,7 +52,7 @@ jobs:
         env:
           POSTGRES_USER: root
           POSTGRES_PASSWORD: root
-          POSTGRES_DB: ohmyform
+          POSTGRES_DB: mlrform
         ports:
           - 5432:5432
         options: >-
@@ -83,7 +83,7 @@ jobs:
           TYPEORM_PORT: 5432
           TYPEORM_USERNAME: root
           TYPEORM_PASSWORD: root
-          TYPEORM_DATABASE: ohmyform
+          TYPEORM_DATABASE: mlrform
           TYPEORM_AUTO_SCHEMA_SYNC: false
           TYPEORM_ENTITIES: src/entity/**/*.ts
           TYPEORM_SUBSCRIBERS: src/subscriber/**/*.ts
@@ -102,7 +102,7 @@ jobs:
         image: mariadb
         env:
           MYSQL_ROOT_PASSWORD: root
-          MYSQL_DATABASE: ohmyform
+          MYSQL_DATABASE: mlrform
         ports:
           - 3306:3306
         options: >-
@@ -133,7 +133,7 @@ jobs:
           TYPEORM_PORT: 3306
           TYPEORM_USERNAME: root
           TYPEORM_PASSWORD: root
-          TYPEORM_DATABASE: ohmyform
+          TYPEORM_DATABASE: mlrform
           TYPEORM_AUTO_SCHEMA_SYNC: false
           TYPEORM_ENTITIES: src/entity/**/*.ts
           TYPEORM_SUBSCRIBERS: src/subscriber/**/*.ts

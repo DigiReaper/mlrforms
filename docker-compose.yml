@@ -2,7 +2,7 @@ version: "3"
 services:
   redis:
     image: redis
-  ohmyform:
+  mlrform:
     build: .
     environment:
       CREATE_ADMIN: "TRUE"
@@ -34,4 +34,4 @@ services:
     environment:
       POSTGRES_USER: admin
       POSTGRES_PASSWORD: mlrit2005
-      POSTGRES_DB: ohmyform
+      POSTGRES_DB: mlrform

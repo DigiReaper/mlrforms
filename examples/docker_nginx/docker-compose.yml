@@ -7,7 +7,7 @@ services:
     environment:
       POSTGRES_USER: root
       POSTGRES_PASSWORD: root
-      POSTGRES_DB: ohmyform
+      POSTGRES_DB: mlrform
     restart: unless-stopped
   nginx:
     image: nginx:alpine
@@ -20,20 +20,20 @@ services:
       - api
     restart: unless-stopped
   ui:
-    image: ohmyform/ui
+    image: mlrform/ui
     environment:
       SERVER_ENDPOINT: http://api:5000/graphql
       PORT: 5000
     restart: unless-stopped
   api:
-    image: ohmyform/api
+    image: mlrform/api
     environment:
       CREATE_ADMIN: "true"
       ADMIN_EMAIL: admin@local.host
       ADMIN_USERNAME: admin
       ADMIN_PASSWORD: admin
       DATABASE_DRIVER: postgres
-      DATABASE_URL: postgresql://root:root@db:5432/ohmyform
+      DATABASE_URL: postgresql://root:root@db:5432/mlrform
       MAILER_URI: smtp://local.host
       REDIS_URL: redis://redis
       PORT: 5000

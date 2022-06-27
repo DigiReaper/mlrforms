@@ -17,7 +17,6 @@ export class SettingQuery {
   @Query(() => SettingPagerModel)
   @Roles('superuser')
   getSettings(): SettingPagerModel {
-    // TODO https://github.com/ohmyform/api/issues/3
     return new SettingPagerModel(
       [],
       0,

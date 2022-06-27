@@ -25,8 +25,8 @@ RUN /usr/local/bin/node-prune
 FROM node:14-alpine
 MAINTAINER MLRfroms <admin@mlrit.ac.in>
 
-# Create a group and a user with name "ohmyform".
-RUN addgroup --gid 9999 ohmyform && adduser -D --uid 9999 -G ohmyform ohmyform
+# Create a group and a user with name "mlrform".
+RUN addgroup --gid 9999 mlrform && adduser -D --uid 9999 -G mlrform mlrform
 
 WORKDIR /usr/src/app
 
@@ -45,6 +45,6 @@ ENV PORT=3000 \
 EXPOSE 3000
 
 # Change to non-root privilege
-USER ohmyform
+USER mlrform
 
 CMD [ "yarn", "start:prod" ]
