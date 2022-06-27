@@ -1,4 +1,3 @@
-![OhMyForm](public/logo.png)
 
 # OhMyForm
 
